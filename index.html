@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="x-icon" href="svg/Books.png" width="25">
+    <title>Booksky</title>
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- cdn ended -->
+
+    <link rel="stylesheet" href="index.css">
+
+    <!-- font link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <nav>
+            <img src="svg/Books.png" alt="brand" width="30">
+            <p>Booksky</p>   
+    </nav>
+
+
+    <div class="container">
+
+        <div class="child-container">
+            <h2>Rich dad poor dad</h2>
+            <h3>Robot</h3>
+            <p>"Winners are not afraid of losing, but losers are. Failure is part of the process of success."</p>
+            <button onclick="finish(event)">Delete</button>
+        </div>
+
+    </div>
+
+
+
+    <!-- add button rounded shape -->
+    <button class="btn" id="add_btn">+</button>
+
+
+
+
+    <!-- popup overlays and popup box -->
+
+    <div class="popup-overlay"></div>
+
+    <div class="popup-box">
+
+        <h2>Add Book</h2>
+
+        <form id="inputForm">
+            <input type="text" placeholder="Book Title" id="book-title-input" >
+
+            <input type="text" placeholder="Book Author" id="book-title-author" >
+
+            <textarea placeholder="Short Description" id="book-description"></textarea>
+
+            <button id="save_btn">SAVE</button>
+            <button id="cancel_btn">CANCEL</button>
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <!-- script file link -->
+
+    <script src="index.js"></script>
+
+   <!-- footer -->
+
+   <footer>
+
+    <div>
+        <h2>Booksky</h2>
+        <p>@Copyrights, All rights reserved.</p>
+        
+        <p>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </p>
+    
+
+
+    </div>
+   </footer>
+
+
+</body>
+</html>
